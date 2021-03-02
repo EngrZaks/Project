@@ -8,4 +8,4 @@ function fetchMessage () {
     }
    }
 console.log(fetchMessage())
-button = 
+document.querySelector('button').addEventListener('onclick', fetchMessage());
